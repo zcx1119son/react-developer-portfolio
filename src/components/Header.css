@@ -1,0 +1,39 @@
+.main-header {
+    /* flexbox를 사용하여 로고와 메뉴를 양쪽 끝에 배치 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* 너비 100%, 상하 패딩, 상단 고정 */
+    width: 100%;
+    padding: 1.5rem 5%; /* 좌우에 여백을 줍니다. */
+    position: sticky; 
+    top: 0;
+    z-index: 1000; /* 다른 요소 위에 표시되도록 설정 */
+    
+    /* 배경색: 반투명한 밤하늘색 (스크롤 시 내용이 살짝 보이도록) */
+    background-color: rgba(26, 30, 36, 0.95); /* --color-night-sky */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* 미세한 그림자로 입체감 부여 */
+}
+
+.logo a {
+    /* 로고 텍스트 스타일 */
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-sunset); /* 석양색으로 강조 */
+    text-decoration: none;
+}
+
+.nav-links a {
+    /* 메뉴 링크 스타일 */
+    color: var(--color-sand-light); /* 밝은 모래색 */
+    text-decoration: none;
+    margin-left: 25px; /* 메뉴 항목 간 간격 */
+    font-size: 1.05rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    /* 마우스 올렸을 때 석양색으로 변화 */
+    color: var(--color-sunset); 
+}

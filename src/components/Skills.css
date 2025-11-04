@@ -1,0 +1,51 @@
+.skills-section {
+    padding: 80px 5%;
+    text-align: center;
+    /* Hero와 Projects 섹션과 시각적으로 구분 */
+    background-color: var(--color-night-sky); 
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    color: var(--color-sand-main);
+    margin-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto 0;
+}
+
+.skill-group {
+    flex: 1;
+    background-color: var(--color-sand-dark); /* 어두운 모래색 배경 */
+    color: var(--color-night-sky); /* 어두운 글자색 */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill-group h3 {
+    color: var(--color-sunset); /* 석양색 제목 */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-tag {
+    background-color: var(--color-night-sky); 
+    color: var(--color-sand-light); 
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
