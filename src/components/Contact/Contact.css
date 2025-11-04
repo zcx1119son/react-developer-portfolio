@@ -1,0 +1,45 @@
+.contact-section {
+    padding: 60px 5% 20px; /* 푸터 공간을 위해 아래 패딩을 줄임 */
+    text-align: center;
+    /* 어두운 밤하늘색 배경을 유지하거나 약간 톤 다운 */
+    background-color: var(--color-night-sky); 
+    color: var(--color-sand-light);
+}
+
+.contact-section h2 {
+    font-size: 2.2rem;
+    color: var(--color-sand-main);
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px auto 50px;
+}
+
+.contact-item h3 {
+    color: var(--color-sunset); /* 석양색 제목 */
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.contact-item p a {
+    color: var(--color-sand-light); 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item p a:hover {
+    color: var(--color-sunset); /* 호버 시 석양색 */
+}
+
+/* 푸터 스타일 */
+.portfolio-footer {
+    border-top: 1px solid var(--color-sand-dark); /* 얇은 구분선 */
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: var(--color-sand-main);
+}

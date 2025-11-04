@@ -1,7 +1,6 @@
 import React from 'react';
 import './Skills.css'; 
 
-// 기술 스택 데이터 정의
 const skillsData = [
   { category: "Frontend", items: ["React", "JavaScript (ES6+)", "HTML5", "CSS3", "SCSS/Sass"] },
   { category: "Backend", items: ["Spring Boot", "Java", "Node.js", "Express"] },

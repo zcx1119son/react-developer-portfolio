@@ -1,7 +1,5 @@
-// src/components/Hero.jsx
-
 import React from 'react';
-import './Hero.css'; // 새로 만들 CSS 파일 불러오기
+import './Hero.css'; 
 
 function Hero() {
   return (

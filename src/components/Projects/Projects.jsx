@@ -1,9 +1,6 @@
-// src/components/Projects.jsx
-
 import React from 'react';
-import './Projects.css'; // 새로 만들 CSS 파일 불러오기
+import './Projects.css'; 
 
-// 프로젝트 데이터를 배열로 관리합니다. (임시 데이터)
 const projectData = [
   { id: 1, title: "React To-Do App (A)", description: "Hooks와 Redux를 활용한 상태 관리 연습 프로젝트.", tags: ["React", "Redux", "SCSS"], githubUrl: "#" },
   { id: 2, title: "Spring Boot API (B)", description: "JWT 인증을 구현한 RESTful 백엔드 API.", tags: ["Spring Boot", "JPA", "MySQL"], githubUrl: "#" },
