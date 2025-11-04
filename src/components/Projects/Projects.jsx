@@ -1,7 +1,7 @@
 import React from 'react';
 
 const projects = [
-  { title: "팀 프로젝트: AI 성장형 캐릭터 시스템 (G-Making)", subtitle: "Full-Stack & AI", description: "MSA 기반 Stable Diffusion img2img로 캐릭터 성장 구현", tags: ["React","Spring Boot","FastAPI","AI_Horde"], githubUrl: "https://github.com/zcx1119son/my-gmaking-contribution", demoUrl: "#" },
+  { title: "팀 프로젝트: AI 성장형 캐릭터 시스템 (G-Making)", subtitle: "Full-Stack & AI", description: "MSA 기반 Stable Diffusion img2img로 캐릭터 성장 구현", tags: ["React","Spring Boot","FastAPI","AI_Horde"], githubUrl: "https://github.com/zcx1119son/Gmaking-Team-Project", demoUrl: "#" },
   { title: "고급 React 상태 관리 앱", subtitle: "React Hooks Mastery", description: "Context API + Custom Hooks로 초경량 플래너", tags: ["React","TypeScript","Tailwind"], githubUrl: "https://github.com/zcx1119son/react-hooks-planner", demoUrl: "#" },
   { title: "Spring Security RESTful API", subtitle: "Backend & Security", description: "JWT + Swagger 블로그 서버", tags: ["Spring Boot","JWT","MySQL"], githubUrl: "https://github.com/zcx1119son/spring-jwt-api", demoUrl: "#" },
 ];

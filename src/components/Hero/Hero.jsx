@@ -33,7 +33,7 @@ export default function Hero() {
         {/* 버튼 */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <a
-            href="#projects"
+            href="https://umjeongmin-portfolio.vercel.app/#project-dunes"
             className="px-10 py-5 bg-sunset text-night-sky font-bold text-xl rounded-2xl 
                        shadow-2xl hover:shadow-sunset/70 hover:scale-110 
                        transition-all duration-300 border-4 border-sunset"
