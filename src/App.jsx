@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -9,7 +8,7 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div id="portfolio-container">
+    <div className="scroll-smooth">
       <Header />
       <Hero />
       <Projects/>
