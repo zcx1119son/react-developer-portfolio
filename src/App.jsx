@@ -11,8 +11,8 @@ function App() {
     <div className="scroll-smooth">
       <Header />
       <Hero />
-      <Projects/>
       <Skills/>
+      <Projects/>
       <Contact/>
     </div>
   );
